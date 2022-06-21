@@ -149,7 +149,6 @@ body {
   text-align: center;
 }
 
-
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -239,7 +238,6 @@ body {
   text-align: center;
 }
 
-
 .work-list {
   display: flex;
 }
@@ -260,7 +258,6 @@ body {
 .team {
   background-color: var(--background-white-color);
 }
-
 
 .team-list {
   display: flex;
@@ -357,7 +354,7 @@ body {
 
 .examples-item {
   /* max-width: 370px; */
-  width: calc((100% - 60px)/3);
+  width: calc((100% - 60px) / 3);
 }
 
 .examples-item:not(:nth-child(3n + 1)) {
@@ -400,9 +397,6 @@ body {
 
 .footer {
   background-color: var(--primary-grey-color);
-}
-
-.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
